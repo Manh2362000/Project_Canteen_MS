@@ -47,10 +47,9 @@
                         <div class="card-body text-center">
                             <!-- Profile picture image-->
                             <div class="form-group">
-                                @Html.LabelFor(Model => Model.Image)
                                 @Html.EditorFor(Model => Model.Image, new { htmlAttributes = new { @class = "form-control", @type = "file" } })
                             </div>
-                            <img class="img-account-profile rounded-circle mb-2" src="img/user-placeholder.svg" alt="">
+                            <img class="img-account-profile rounded-circle mb-2" src="" alt="">
                             <!-- Profile picture help block-->
                             <div class="small font-italic text-muted mb-4">JPG or PNG no larger than 5 MB</div>
                             <!-- Profile picture upload button-->
