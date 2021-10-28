@@ -17,5 +17,6 @@ namespace Project_Canteen_MS
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
         }
+      
     }
 }

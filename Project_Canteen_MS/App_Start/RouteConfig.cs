@@ -16,7 +16,7 @@ namespace Project_Canteen_MS
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Products", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "Web", action = "Index", id = UrlParameter.Optional }
             );
         }
     }
