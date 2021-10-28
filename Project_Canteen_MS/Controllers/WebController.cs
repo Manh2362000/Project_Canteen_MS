@@ -14,5 +14,9 @@ namespace Project_Canteen_MS.Controllers
             return View();
         }
 
+        public ActionResult ThanhToan()
+        {
+            return View();
+        }
     }
 }
